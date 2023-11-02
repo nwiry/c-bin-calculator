@@ -81,7 +81,7 @@ bool valid_binary(char n[])
     int i;
     size_t size = sizeof(n);
     for (i = 0; i < size; i++)
-        if (n[i] != "-" && n[1] != "1" && n[1] != "0")
+        if (n[i] != "-" && n[i] != "1" && n[i] != "0")
             return false;
 
     return true;
